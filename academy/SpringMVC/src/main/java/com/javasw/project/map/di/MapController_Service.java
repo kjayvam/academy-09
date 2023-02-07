@@ -14,7 +14,7 @@ public class MapController_Service {
 //	@Qualifier("ApiExplorer")
 	private IMapService apiService;
 
-	@Autowired
+//	@Autowired
 	public void setApiService(@Qualifier("ApiExplorer")IMapService apiService) {
 		this.apiService = apiService;
 	}
