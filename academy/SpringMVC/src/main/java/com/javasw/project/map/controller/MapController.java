@@ -1,14 +1,11 @@
 package com.javasw.project.map.controller;
 
-import java.io.IOException;
-
+import com.javasw.project.map.di.MapController_Service;
 import org.json.simple.parser.ParseException;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
-import com.javasw.project.map.di.MapController_Service;
+import java.io.IOException;
 
 @Controller
 //@EnableScheduling	// 스케줄링 반복 작업 수행 실시
